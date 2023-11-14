@@ -20,7 +20,7 @@ const Banner = () => {
                         <p className='text-2xl font-bold text-pink-400 text-center mt-3'> Halo Nails</p>
                         <p className='text-pink-400 text-center'> Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Asperiores quas quo dolores <br /> iusto deserunt nihil ducimus officia natus  <br />officiis! Natus provident sunt eum.
                         </p>
-                        <h3 className='mt-6 mb-5 mx-auto w-[200px] h-[48px] bg-[#F676AB] text-white rounded-3xl text-center'><button className='mt-[10px] text-lg '>Text Me</button></h3>
+                        <h3 className='mt-6 mb-5 mx-auto w-[200px] h-[48px] bg-[#F676AB] text-white rounded-[30px] text-center'><button className='mt-[10px] text-lg '>Text Me</button></h3>
                         <div className='flex items-center justify-center gap-6 mb-8'>
                             <img src={twiteer} alt="twiteer" />
                             <img src={fb} alt="fb" />
@@ -31,12 +31,12 @@ const Banner = () => {
             <div className='md:flex items-center justify-between bg-black'>
                    <div className=' p-9'>
                     <h3 className='text-pink-400 text-center text-3xl'>Best Quality <br /> Products</h3>
-                    <p className='text-white text-center my-6'>Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit. Doloribus vel rerum vitae sit <br /> aperiam dolorum, harum earum reprehenderit corrupti! <br /> Ab, optio. Saepe, totam!</p>
-                    <h3 className='mt-6 mb-5 mx-auto w-[200px] h-[48px] bg-[#F676AB] text-white rounded-3xl text-center'><button className='mt-[10px] text-lg '>Text Me</button></h3>
+                    <p className='text-white text-center my-6 max-w-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vel rerum vitae sit aperiam dolorum, harum earum reprehenderit corrupti!  Ab, optio. Saepe, totam!</p>
+                    <h3 className='mt-6 mb-5 mx-auto w-[200px] h-[48px] bg-[#F676AB] text-white rounded-[30px] text-center'><button className='mt-[10px] text-lg '>Text Me</button></h3>
                     </div>
             
                 <div>
-                    <div className='grid grid-cols-3 '>
+                    <div className='grid grid-cols-3 gap-1 mx-1 '>
                         <img className='w-[161px] h-[123px]'  src={vector} alt="" />
                         <img className='w-[161px] h-[123px]' src={vector} alt="" />
                         <img className='w-[161px] h-[123px]' src={vector} alt="" />
