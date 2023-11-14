@@ -3,7 +3,7 @@ import myphoto from '/myphoto.png';
 
 const About = () => {
   return (
-    <div className='bg-pink-500 text-white lg:flex md:flex '>
+    <div className='bg-[#F676AB] text-white lg:flex md:flex '>
       <img className='max-w-full mx-auto h-auto' src={myphoto} alt="My Photo" />
       <div className='  flex items-center'>
         <div className='px-12'>

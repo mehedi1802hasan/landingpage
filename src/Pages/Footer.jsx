@@ -5,7 +5,7 @@ import email from '/email.png'
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-neutral text-neutral-content">
+            <footer className="footer p-10 bg-black text-neutral-content">
   <nav>
     <header className="font-bold text-xl">About Us</header> 
     <a className="link link-hover">Company</a>

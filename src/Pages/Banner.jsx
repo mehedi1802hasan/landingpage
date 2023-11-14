@@ -28,7 +28,7 @@ const Banner = () => {
                         </div>             </div>
                 </div>
             </div>
-            <div className='md:flex lg:flex items-center justify-between bg-black'>
+            <div className='md:flex items-center justify-between bg-black'>
                    <div className=' p-9'>
                     <h3 className='text-pink-400 text-center text-3xl'>Best Quality <br /> Products</h3>
                     <p className='text-white text-center my-6'>Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit. Doloribus vel rerum vitae sit <br /> aperiam dolorum, harum earum reprehenderit corrupti! <br /> Ab, optio. Saepe, totam!</p>

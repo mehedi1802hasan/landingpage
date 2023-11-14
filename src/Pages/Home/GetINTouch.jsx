@@ -25,7 +25,7 @@ const GetInTouch = () => {
        <input type="text" placeholder="Name" className="input input-bordered w-full max-w-xs " /> 
         <input type="text" placeholder="Email" className="input input-bordered w-full max-w-xs my-3" />  
         <input type="text" placeholder="Message" className="input input-bordered w-full h-20 max-w-xs" /> 
-        <button className='bg-pink-500 rounded-lg w-80 h-10 mt-4 mb-6 '>Request Call</button>    </div> 
+        <button className='bg-[#F676AB] rounded-lg w-80 h-10 mt-4 mb-6 '>Request Call</button>    </div> 
       </div>
       </div>
     </div>
