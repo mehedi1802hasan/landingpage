@@ -21,7 +21,7 @@ const GetInTouch = () => {
       <div className='md:w-1/2 lg:w-1/2' style={{ backgroundImage: `url(${banner})`, backgroundSize: 'cover', backgroundPosition: 'center center', backgroundRepeat: 'no-repeat' }}>
         <div className='flex mx-auto justify-center items-center '>
           
-       <div className='w-96  my-7 ml-5 md:ml-0 lg:ml-0 bg-[rgba(0,0,0,0.5)] '> 
+       <div className='w-96  my-7 ml-5 md:mr-0 lg:mr-0 mr-5 md:ml-0 lg:ml-0 bg-[rgba(0,0,0,0.5)] '> 
       <div  className='text-center p-5'>
       <input type="text" placeholder="Name" className="input input-bordered w-full max-w-xs rounded-md" /> 
         <input type="text" placeholder="Email" className="input input-bordered w-full max-w-xs my-3 rounded-md" />  
