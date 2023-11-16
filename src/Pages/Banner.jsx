@@ -9,14 +9,14 @@ const Banner = () => {
 
     return (
         <div>
-            <div className='md:flex lg:flex items-center space-y-16  py-5 px-10 justify-center'>
+            <div className='md:flex lg:flex items-center space-y-16  py-5 px-10 justify-center md:max-w-screen-2xl lg:max-w-screen-2xl'>
                 <div className='md:w-1/2 lg:w-1/2 mx-auto'  >
 
-<img className='md:w-[420px] lg:w-[420px]  lg:-ml-10 md:-ml-10 left-[58px] ' src={banner} alt="" />
+<img className='md:w-[420px] lg:w-[420px] w-full lg:-ml-10 md:-ml-10 left-[58px] ' src={banner} alt="" />
                </div>
                 <div className='1/2 md:mr-20 lg:mr-20'>
                     <div >
-                        <h3 className='text-6xl font-bold text-pink-400  uppercase text-center'>Blessed By <br /> <span className=' text-7xl text-center '>Juicy</span></h3>
+                        <h3 className='text-6xl font-bold text-pink-400  uppercase text-center w-[100%]'>Blessed By <br /> <span className=' text-7xl text-center '>Juicy</span></h3>
                         <p className='text-2xl font-bold text-pink-400 text-center mt-3'> Halo Nails</p>
                         <p className='text-pink-400 text-center'> Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Asperiores quas quo dolores <br /> iusto deserunt nihil ducimus officia natus  <br />officiis! Natus provident sunt eum.
                         </p>
@@ -35,20 +35,21 @@ const Banner = () => {
                     <h3 className='mt-6 mb-5 mx-auto w-[200px] h-[48px] bg-[#F676AB] text-white rounded-[30px] text-center'><button className='mt-[10px] text-lg '>Text Me</button></h3>
                     </div>
             
-                <div>
+                <div className='md:flex lg:flex  '>
                     <div className='grid grid-cols-3 gap-1 mx-1 '>
-                        <img className='w-[161px] h-[123px]'  src={vector} alt="" />
-                        <img className='w-[161px] h-[123px]' src={vector} alt="" />
-                        <img className='w-[161px] h-[123px]' src={vector} alt="" />
-                        <img className='w-[161px] h-[123px]' src={vector} alt="" />
-                        <img className='w-[161px] h-[123px]' src={vector} alt="" />
-                        <img className='w-[161px] h-[123px]' src={vector} alt="" />
-                        <img className='w-[161px] h-[123px]' src={vector} alt="" />
-                        <img className='w-[161px] h-[123px]' src={vector} alt="" />
-                        <img className='w-[161px] h-[123px]' src={vector} alt="" />
+                        <img className='w-[161px] h-[125px]'  src={vector} alt="" />
+                        <img className='w-[161px] h-[125px]' src={vector} alt="" />
+                        <img className='w-[161px] h-[125px]' src={vector} alt="" />
+                        <img className='w-[161px] h-[125px]' src={vector} alt="" />
+                        <img className='w-[161px] h-[125px]' src={vector} alt="" />
+                        <img className='w-[161px] h-[125px]' src={vector} alt="" />
+                        <img className='w-[161px] h-[125px]' src={vector} alt="" />
+                        <img className='w-[161px] h-[125px]' src={vector} alt="" />
+                        <img className='w-[161px] h-[125px]' src={vector} alt="" />
                     </div>
+                    <div><img className='md:w-[410px] lg:[410px] w-full h-[385px]' src={vector} alt="" /></div>
+
                 </div>
-                <div><img className='w-[400px] h-[369px]' src={vector} alt="" /></div>
             </div>
         </div>
     );
