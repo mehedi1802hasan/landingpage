@@ -16,7 +16,7 @@ const Banner = () => {
                </div>
                 <div className='1/2 md:mr-20 lg:mr-20'>
                     <div >
-                        <h3 className='text-6xl font-bold text-pink-400  uppercase text-center w-[100%]'>Blessed By <br /> <span className=' text-7xl text-center '>Juicy</span></h3>
+                        <h3 className='md:text-6xl lg:text-6xl text-3xl font-bold text-pink-400  uppercase text-center w-[100%]'>Blessed By <br /> <span className=' md:text-7xl lg:text-7xl text-3xl text-center '>Juicy</span></h3>
                         <p className='text-2xl font-bold text-pink-400 text-center mt-3'> Halo Nails</p>
                         <p className='text-pink-400 text-center'> Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Asperiores quas quo dolores <br /> iusto deserunt nihil ducimus officia natus  <br />officiis! Natus provident sunt eum.
                         </p>
